@@ -1,0 +1,124 @@
+html,body
+{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+header
+{
+    background: linear-gradient(45deg,red,blue);
+    width: 100%;
+    display: block;
+    height: 100px;
+    color: beige;
+    padding: 5%;
+    text-align: center;
+    box-shadow: 0 7px 13px black;
+    font-size: 18px;
+
+}
+
+
+h1#headin2
+{
+    background-color: blue;
+    margin: 1%;
+    color: brown;
+    text-align: center;
+}
+
+
+
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    line-height :30px;
+    margin: 50px;
+    text-align: justify;
+    text-justify:distribute-all-lines;
+    background-image: linear-gradient(circle center,rgb(17, 16, 16));
+    
+}
+
+h1#Heading1    
+{
+    color: white;
+    background-image: linear-gradient(rgb(248, 12, 51),rgb(48, 123, 209));
+    margin:0px;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+    
+    text-transform:uppercase;
+}
+div#Heading1           /Black Board/
+{
+    color:white;
+    text-align:center;
+    background-color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:200px;
+    border:15px ridge rgb(88, 32, 218);
+    margin: 50px;
+
+    
+    text-transform: capitalize;
+    }
+
+ul   /unordered list Index/
+{
+    margin: 50px;
+}
+ul li a  Removing Underline 
+{
+    text-decoration: none;
+
+}
+li:nth-child(even) /Display even all are in colors/
+{
+    background-color: rgb(255, 240, 242);
+    color:gray;
+}
+li:nth-child(odd)  /Display odd all are in colors/
+{
+    background-color: antiquewhite;
+    color:black;
+}
+
+
+p#top a Scroll to top nesting Tag means space ,grouping means , ctrl + K + U 
+{
+    text-decoration: none;
+    background-color: blue;
+    color:white;
+    padding:7px;
+    border-radius: 50px;
+
+}
+p#top a:hover /Its Display the button action/
+{
+    color:brown;
+    font-weight: 200;
+    text-shadow : 30px;
+
+}
+Section#Section1 img    Its Display the image size and align 
+{
+    margin:0 auto;
+    display:block;
+}
+.main-footer
+{
+    background:linear-gradient(45deg,black,darkslategray);
+    color: blue;
+    padding:12px;
+    box-shadow: 0 5px black;
+
+}
+.main footer a
+{
+    color: azure;
+    
+}
